@@ -1,0 +1,42 @@
+{
+  "name": "kbdxbt/laravel-elasticsearch-query",
+  "description": "Use SQL statements to query elasticsearch",
+  "keywords": [
+    "elasticsearch",
+    "laravel",
+    "sql",
+    "orm",
+    "php"
+  ],
+  "homepage": "https://github.com/kbdxbt/laravel-elasticsearch-query",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "kbdxbt",
+      "email": "1194174530@qq.com",
+      "homepage": "",
+      "source": "https://github.com/crcms/elasticsearch.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.3|^6.0",
+    "elasticsearch/elasticsearch": "~6.0"
+  },
+  "autoload": {
+    "files": [
+    ],
+    "psr-4": {
+      "Kbdxbt\\ElasticSearchQuery\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kbdxbt\\ElasticSearchQuery\\LaravelServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
